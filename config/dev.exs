@@ -3,7 +3,7 @@ use Mix.Config
 # Configure your database
 config :vocial, Vocial.Repo,
   username: "postgres",
-  password: "docker",
+  password: "postgres",
   database: "vocial_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
